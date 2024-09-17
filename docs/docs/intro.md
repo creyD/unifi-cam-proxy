@@ -41,6 +41,8 @@ Using Docker is the recommended installation method.
 The sample docker-compose file below is the recommended deployment for most users.
 Note, the generated certificate must be in the same directory as the `docker-compose.yaml` file.
 
+Please note that you need to replace the command with a specific command if you use anything else than the RTSP integration. Also replace the IP (192.168.201.15) with your cameras IP address and the {NVR IP} with the IP of the UniFi Protect instance.
+
 ```yaml
 version: "3.9"
 services:
