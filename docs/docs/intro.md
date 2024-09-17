@@ -44,7 +44,6 @@ Note, the generated certificate must be in the same directory as the `docker-com
 Please note that you need to replace the command with a specific command if you use anything else than the RTSP integration. Also replace the IP (192.168.201.15) with your cameras IP address and the {NVR IP} with the IP of the UniFi Protect instance.
 
 ```yaml
-version: "3.9"
 services:
   unifi-cam-proxy:
     restart: unless-stopped
@@ -63,7 +62,6 @@ Using docker-compose, your setup might look like the following:
 ***See here for more details: <https://www.mist.com/get-to-know-mac-address-randomization-in-2020/>***
 
 ```yaml
-version: "3.5"
 services:
   proxy-1:
     restart: unless-stopped
